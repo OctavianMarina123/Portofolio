@@ -21,9 +21,9 @@ const Navbar = () => {
     }
 
     return (
-        <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
+        <header className="fixed top-0 left-0 right-0 z-50 bg-black/40">
             {/*max-w-7xl for consistent spacing between left and right*/}
-            <div className="max-w-7xl">
+            <div className="max-w-7xl mx-auto">
                 <div className="flex justify-between items-center py-5 mx-auto c-space">
                     <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
                         Octavian
@@ -37,7 +37,8 @@ const Navbar = () => {
                         <NavItems/>
                     </nav>
                 </div>
-                <div className={`nav-sidebar ${isOpen ? 'max-h-screen:':'max-h-0'}`}>
+                <div
+                    className={`nav-sidebar ${isOpen ? 'max-h-screen opacity-100 bg-black bg-opacity-10' : 'max-h-0 opacity-0'} transition-all duration-300`}>
                     <nav className="p-5">
                         <NavItems/>
                     </nav>
