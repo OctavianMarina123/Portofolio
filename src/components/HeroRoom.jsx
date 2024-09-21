@@ -11,6 +11,7 @@ import { useGLTF } from '@react-three/drei'
 
 const HeroRoom = (props) => {
     const { nodes, materials } = useGLTF('/models/scene.gltf')
+
     return (
         <group {...props} dispose={null}>
             <group position={[0, 0.336, 0]}>

@@ -56,7 +56,6 @@ const Iphone = (props) => {
                             geometry={nodes.Object_7.geometry}
                             material={materials.chrome}
                         />
-                        {/* Restul mesh-urilor */}
                     </group>
                 </group>
             </group>

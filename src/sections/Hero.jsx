@@ -9,6 +9,7 @@ import {useMediaQuery} from "react-responsive";
 import Iphone from "../components/Iphone.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
+import MacBook from "../components/MacBook.jsx";
 
 const Hero = () => {
     const isMobile = useMediaQuery({maxWidth: 768});
@@ -73,8 +74,8 @@ const Hero = () => {
                     </Suspense>
                 </Canvas>
             </div>
-            <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-                <a href="@contact" className="w-fit">
+            <div className="max-w-7xl mx-auto absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+                <a href="#about" className="w-fit">
                     <Button name="Let's work togheter" isBeam  containerClass="sm:w-fit w-full sm:min-w-96"/>
                 </a>
             </div>
