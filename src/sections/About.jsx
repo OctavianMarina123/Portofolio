@@ -62,8 +62,8 @@ const About = () => {
                                         <FaDatabase className="inline-block ml-2"/>
                                     </li>
                                     <li>
-                                        <strong>Web and Mobile Development:</strong> HTML, CSS, JavaScript, React, React
-                                        Native, Tailwind CSS, Bootstrap, Vite, Drei
+                                        <strong>Web and Mobile Development:</strong> HTML, CSS, JavaScript, Typescript React, React
+                                        Native, Expo, Tailwind CSS, Bootstrap, Vite, Drei, Django
                                         <FaHtml5 className="inline-block ml-1"/>
                                         <FaCss3Alt className="inline-block mx-1"/>
                                         <SiJavascript className="inline-block mx-1"/>

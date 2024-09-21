@@ -40,7 +40,7 @@ const Hero = () => {
         heroRoomPosition[2] - 1,
     ];
     return (
-        <section className="min-h-screen w-full flex flex-col relative bg-gradient-to-b from-[#41195d] to-black">
+        <section className="min-h-screen w-full flex flex-col relative bg-gradient-to-b from-[#41195d] to-black" id="home">
             <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
                 <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans z-10">
                     Hi, I'm Octavian Marina

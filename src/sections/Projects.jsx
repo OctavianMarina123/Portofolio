@@ -11,7 +11,7 @@ const Projects = () => {
     const currentProject = myProjects[selectedProjectIndex];
     const isMobile = useMediaQuery({maxWidth: 768});
     const isTablet = useMediaQuery({maxWidth: 940});
-    const distenceToTheScreen = isMobile?0:isTablet?-1:-2
+    const dinstanceToTheScreen = isMobile?0:isTablet?-1:-2
     const handleNavigation = (direction) => {
         setSelectedProjectIndex((prevIndex) => {
             if (direction === 'previous') {
@@ -63,13 +63,13 @@ const Projects = () => {
                         </button>
                     </div>
                 </div>
-                <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
+                <div className="border border-black-300 bg-black-200 rounded-lg h-96 lg:h-full">
                     <Canvas>
                         <ambientLight intensity={0.8}/>
                         <directionalLight position={[3,16,5]}/>
                         <Center>
                             <Suspense fallback={<CanvasLoader/>}>
-                                <group scale={40} position={[0,-6,distenceToTheScreen]} rotation={[0.5,0,0]}>
+                                <group scale={40} position={[0,-6,dinstanceToTheScreen]} rotation={[0.5,0,0]}>
                                     <MacBook texture={currentProject.texture}/>
                                 </group>
                             </Suspense>
