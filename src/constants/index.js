@@ -21,8 +21,6 @@ export const navLinks = [
     },
 ];
 
-
-
 export const myProjects = [
     {
         title: 'MediCortex - AI-Powered Medical Research Search Engine',
@@ -141,3 +139,41 @@ export const myProjects = [
 
 
 
+export const workExperiences = [
+    {
+        id: 1,
+        name: 'Babeș-Bolyai University',
+        pos: 'Computer Science Student',
+        duration: '2021 - 2024',
+        title: "As a Computer Science student at Babeș-Bolyai University, I have been immersed in a wide range of subjects, from algorithms and data structures to software development and artificial intelligence. This program has allowed me to build a strong foundation in programming, problem-solving, and critical thinking, preparing me for a career in technology.",
+        icon: '/assets/ubblogo.png',
+        animation: 'clapping',
+    },
+    {
+        id: 2,
+        name: 'Info World',
+        pos: 'Java Developer',
+        duration: '2023 - Present',
+        title: "As a Java Developer at Info World, I have deepened my expertise in Java, focusing on areas like DICOM (Digital Imaging and Communications in Medicine) and enterprise-level software development. This role has allowed me to work on complex healthcare solutions, enhancing both my technical skills and my ability to work in a team-oriented environment.",
+        icon: '/assets/iwlogo-2.png',
+        animation: 'salute',
+    },
+    {
+        id: 3,
+        name: 'Unplugged',
+        pos: 'Founder & Developer',
+        duration: '2024 - Present',
+        title: "As the founder of Unplugged, I am building a startup centered around a mobile app designed to help reduce phone usage in social settings. The platform encourages healthier social interactions by allowing groups to track and limit screen time together, promoting a more mindful and balanced approach to technology. This venture has allowed me to combine my technical skills with business strategy to create a meaningful impact on digital wellness.",
+        icon: '/assets/unplugged.png',
+        animation: 'victory',
+    },
+    {
+        id: 4,
+        name: 'Babeș-Bolyai University',
+        pos: 'Master\'s Student in Applied Computational Intelligence',
+        duration: '2024 - Present',
+        title: "Currently pursuing a Master's degree in Applied Computational Intelligence at Babeș-Bolyai University, I am focusing on advanced topics in artificial intelligence, machine learning, and data-driven technologies. This program enables me to deepen my understanding of AI while working on practical applications that address real-world problems, preparing me for cutting-edge innovation in the tech industry.",
+        icon: '/assets/ubblogo.png',
+        animation: 'clapping',
+    }
+];
