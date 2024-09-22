@@ -3,7 +3,7 @@ import {myProjects} from "../constants/index.js";
 import {Canvas} from "@react-three/fiber";
 import {Center, OrbitControls} from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader.jsx";
-import MacBook from "../components/MacBook.jsx";
+import MacBook from "../components/Macbook.jsx";
 import {useMediaQuery} from "react-responsive";
 const projectCount = myProjects.length;
 const Projects = () => {

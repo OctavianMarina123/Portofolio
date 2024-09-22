@@ -28,7 +28,7 @@ export const myProjects = [
         subdesc:
             'Built natively for iOS with a fine-tuned BERT model, optimized for medical literature. The app integrates with a robust Django backend server for data handling and offers secure user authentication through Firebase.',
         href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-        texture: '/models/project/Project1.mov',
+        texture: '/models/project/Project1.mp4',
         logo: '/assets/medicortexlogo.png',
         logoStyle: {
             backgroundColor: '#2A1816',
@@ -70,7 +70,7 @@ export const myProjects = [
         subdesc:
             'A cross-platform app with real-time progress tracking, deadline reminders, and seamless data sync for effective goal management.',
         href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-        texture: '/models/project/Project2.mov',
+        texture: '/models/project/Project2.mp4',
         logo: '/assets/TargetTrackerIcon.png',
         logoStyle: {
             backgroundColor: '#eee2dc',
@@ -102,7 +102,7 @@ export const myProjects = [
         subdesc:
             'Developed with Three.js for web-based interactivity, the project has also been implemented in C++ using OpenGL for high-performance rendering. Both versions provide an immersive experience into planetary motion through physics-based modeling.',
         href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-        texture: '/models/project/Project3.mov',
+        texture: '/models/project/Project3.mp4',
         logo: '/assets/solarsystem.png',
         logoStyle: {
             backgroundColor: '#212330',

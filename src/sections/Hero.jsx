@@ -9,7 +9,7 @@ import {useMediaQuery} from "react-responsive";
 import Iphone from "../components/Iphone.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
-import MacBook from "../components/MacBook.jsx";
+import MacBook from "../components/Macbook.jsx";
 
 const Hero = () => {
     const isMobile = useMediaQuery({maxWidth: 768});
