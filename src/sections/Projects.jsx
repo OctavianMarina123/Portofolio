@@ -73,7 +73,7 @@ const Projects = () => {
 
                             <div className="flex-grow bg-black">
                                 <video
-                                    src={(isMobile && selectedProjectIndex === 0) ? '/models/project/MediCortex.mov':currentProject.texture}
+                                    src={currentProject.textureMobile}
                                     autoPlay
                                     loop
                                     muted
