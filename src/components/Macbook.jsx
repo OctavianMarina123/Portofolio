@@ -12,11 +12,10 @@ import * as THREE from "three";
 
 const Macbook = (props) => {
     const { nodes, materials } = useGLTF('/models/macbook/scene.gltf')
-    const txt = useVideoTexture(props.texture ? props.texture : '/models/project/Project1.mov');
+    const txt = useVideoTexture(props.texture ? props.texture : '/models/project/Project1.mp4');
     txt.wrapS = txt.wrapT = THREE.RepeatWrapping;
     txt.repeat.set(1.7,1.7);
     txt.offset.set(0.63,0.62)
-
     return (
         <group {...props} dispose={null}>
             <group scale={0.01}>
