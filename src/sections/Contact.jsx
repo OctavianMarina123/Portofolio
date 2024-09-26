@@ -75,7 +75,7 @@ const Contact = () => {
                                     </label>
                                     <label className="space-y-3">
                             <span className="field-label">
-                                Full Name
+                                Your Message
                             </span>
                                         <textarea name="message" value={form.message} onChange={handleChange} required
                                                   rows={5}
