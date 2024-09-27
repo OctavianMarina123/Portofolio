@@ -37,7 +37,7 @@ const Contact = () => {
 
         setLoading(false)
     }
-    //service_6cegakb
+
     return (
         <section className="c-space my-20" id="contact">
             <div className="relative min-h-screen flex items-center justify-center flex -col">
