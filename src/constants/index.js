@@ -28,11 +28,43 @@ export const navLinks = [
 
 export const myProjects = [
     {
+        title: 'Unplugged - Focus & Social Connection App',
+        desc: 'Unplugged encourages focus and social interaction by enabling users to create sessions where participants disconnect from their phones. The app synchronizes timers across devices, tracks progress, and includes a credit-based system for session limits.',
+        subdesc: 'Built with React Native, styled with Tailwind CSS, and integrated with Firebase for authentication, real-time data handling, and a subscription-based payment model.',
+        href: '',
+        texture: '/models/project/unplugged.mp4',
+        textureMobile:'/models/project/unpluggedMobile.mp4',
+        logo: '/assets/unplugged.png',
+        logoStyle: {
+            backgroundColor: '#1C1C1E',
+            border: '0.2px solid #333333',
+            boxShadow: '0px 0px 40px 0px #4A90E2',
+        },
+        spotlight: 'assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React Native',
+                path: '/assets/react-native-icon.svg',
+            },
+            {
+                id: 2,
+                name: 'Firebase',
+                path: '/assets/firebase-icon.svg',
+            },
+            {
+                id: 3,
+                name: 'Tailwind CSS',
+                path: '/assets/tailwindcss-icon.svg',
+            },
+        ],
+    },
+    {
         title: 'MediCortex - AI-Powered Medical Research Search Engine',
         desc: 'MediCortex is an AI-driven platform that transforms the way healthcare professionals and researchers access medical literature. By utilizing a powerful language model fine-tuned on over one million medical articles, MediCortex understands complex, natural language queries and delivers precise results from extensive medical databases like PubMed. It streamlines the search for critical information, enhancing both accuracy and efficiency.',
         subdesc:
             'Built natively for iOS with a fine-tuned BERT model, optimized for medical literature. The app integrates with a robust Django backend server for data handling and offers secure user authentication through Firebase.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        href: '',
         texture: '/models/project/Project1.mp4',
         textureMobile:'/models/project/Project1Mobile.mp4',
         logo: '/assets/medicortexlogo.png',
@@ -71,44 +103,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Target Tracker - Goal Setting for Improved Productivity',
-        desc: 'Target Tracker helps you boost productivity by setting goals, tracking progress, and managing deadlines. Built with React Native and Expo, the app lets you create goal lists, view progress stats, and receive timely notifications before deadlines.',
-        subdesc:
-            'A cross-platform app with real-time progress tracking, deadline reminders, and seamless data sync for effective goal management.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-        texture: '/models/project/Project2.mp4',
-        textureMobile:'/models/project/Project2Mobile.mp4',
-        logo: '/assets/TargetTrackerIcon.png',
-        logoStyle: {
-            backgroundColor: '#eee2dc',
-            border: '0.2px solid #eee2dc',
-            boxShadow: '0px 0px 20px 0px #eee2dc',
-        },
-        spotlight: '/assets/spotlight2.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'Expo',
-                path: 'assets/expo-go-app.svg',
-            },
-            {
-                id: 3,
-                name: 'VitJs',
-                path: '/assets/vitejs.svg',
-            },
-        ],
-    },
-    {
         title: 'SolarSim - Interactive 3D Solar System Simulation',
         desc: 'SolarSim is an interactive 3D simulation of the solar system built using JavaScript and Three.js. The project models the orbits and motions of planets using mathematical functions to accurately simulate their trajectories. With realistic lighting and scaling, users can explore the solar system in real-time, visualizing the dynamic relationships between planets, moons, and the sun.',
         subdesc:
             'Developed with Three.js for web-based interactivity, the project has also been implemented in C++ using OpenGL for high-performance rendering. Both versions provide an immersive experience into planetary motion through physics-based modeling.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        href: '',
         texture: '/models/project/Project3.mp4',
         textureMobile:'/models/project/Project3Mobile.mp4',
         logo: '/assets/solarsystem.png',
@@ -143,6 +142,40 @@ export const myProjects = [
             },
         ],
     },
+    {
+        title: 'Target Tracker - Goal Setting for Improved Productivity',
+        desc: 'Target Tracker helps you boost productivity by setting goals, tracking progress, and managing deadlines. Built with React Native and Expo, the app lets you create goal lists, view progress stats, and receive timely notifications before deadlines.',
+        subdesc:
+            'A cross-platform app with real-time progress tracking, deadline reminders, and seamless data sync for effective goal management.',
+        href: '',
+        texture: '/models/project/Project2.mp4',
+        textureMobile:'/models/project/Project2Mobile.mp4',
+        logo: '/assets/TargetTrackerIcon.png',
+        logoStyle: {
+            backgroundColor: '#eee2dc',
+            border: '0.2px solid #eee2dc',
+            boxShadow: '0px 0px 20px 0px #eee2dc',
+        },
+        spotlight: '/assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'Expo',
+                path: 'assets/expo-go-app.svg',
+            },
+            {
+                id: 3,
+                name: 'VitJs',
+                path: '/assets/vitejs.svg',
+            },
+        ],
+    },
+
 ];
 
 
@@ -168,15 +201,6 @@ export const workExperiences = [
     },
     {
         id: 3,
-        name: 'Unplugged',
-        pos: 'Founder & Developer',
-        duration: '2024 - Present',
-        title: "As the founder of Unplugged, I am building a startup centered around a mobile app designed to help reduce phone usage in social settings. The platform encourages healthier social interactions by allowing groups to track and limit screen time together, promoting a more mindful and balanced approach to technology. This venture has allowed me to combine my technical skills with business strategy to create a meaningful impact on digital wellness.",
-        icon: '/assets/unplugged.png',
-        animation: 'victory',
-    },
-    {
-        id: 4,
         name: 'Babeș-Bolyai University',
         pos: 'Master\'s Student in Applied Computational Intelligence',
         duration: '2024 - Present',

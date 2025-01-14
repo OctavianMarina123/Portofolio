@@ -5,6 +5,7 @@ import {
 } from 'react-icons/fa';
 import {
     SiSwift, SiJavascript, SiTensorflow, SiMongodb, SiFirebase, SiCplusplus,
+    SiAdobepremierepro,
     SiOpengl, SiAdobephotoshop, SiAdobeillustrator, SiFigma
 } from 'react-icons/si';
 import Globe from "react-globe.gl";
@@ -98,7 +99,7 @@ const About = () => {
                                         <SiOpengl className="inline-block ml-2"/>
                                     </li>
                                     <li>
-                                        <strong>Python and Data Science:</strong> TensorFlow, NumPy, Pandas
+                                        <strong>Python and Data Science:</strong> TensorFlow, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
                                         <FaPython className="inline-block ml-2"/>
                                     </li>
                                     <li>
@@ -118,10 +119,12 @@ const About = () => {
                                         <SiFirebase className="inline-block ml-2"/>
                                     </li>
                                     <li>
-                                        <strong>Design Tools:</strong> Adobe Photoshop, Adobe Illustrator, Figma
+                                        <strong>Design Tools:</strong> Adobe Photoshop, Adobe Illustrator, Figma, Adobe
+                                        Premiere Pro
                                         <SiAdobephotoshop className="inline-block ml-2"/>
                                         <SiAdobeillustrator className="inline-block ml-2"/>
                                         <SiFigma className="inline-block ml-2"/>
+                                        <SiAdobepremierepro className="inline-block ml-2"/>
                                     </li>
                                 </ul>
                             </div>
